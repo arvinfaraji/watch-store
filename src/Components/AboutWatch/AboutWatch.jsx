@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './AboutWatch.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 export default function AboutWatch() {
+
+  useEffect(() => {
+    Aos.init()
+  }, [])
+
   return (
     <section className='py-5 px-3'>
       <Container>
-        <Row className='align-items-center mt-5'>
+        <Row className='align-items-center mt-5' data-aos='zoom-in'>
           <Col className='col-12 col-md-4' style={{textAlign: 'right'}}>
             <div className='py-3'>
               <p>تعداد موتور : 8</p>
