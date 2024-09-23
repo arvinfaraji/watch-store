@@ -1,0 +1,29 @@
+.carousel{
+    overflow: hidden;
+    width: 100%;
+    /* background-color: red; */
+}
+.warp{
+    display: grid;
+    grid-auto-flow: column;
+    /* grid-auto-columns: 250px; */
+    justify-items: stretch;
+    animation: slide 5s linear infinite;
+}
+
+.warp .watch-model-img{
+    height: 250px;
+    width: 250px;
+    transition: all .15s;
+}
+@keyframes slide {
+    to {
+        translate: calc(250px);
+    }
+}
+.warp:hover{
+    animation-play-state: paused;
+}
+.watch-model-img:hover{
+    transform: scale(1.1);
+}

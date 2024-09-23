@@ -1,0 +1,20 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@font-face {
+    font-family: 'iransans';
+    src: url('./../public/fonts/iransansdnweb.woff2');
+}
+.lalezar{
+    font-family: 'lalezar';
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'iransans' , sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+}
+.text-justify{
+    text-align: justify;
+}

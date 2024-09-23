@@ -1,0 +1,16 @@
+.profile-section{
+    border: 1px solid #E8E9E4;
+    border-radius: 10px;
+    padding: 4px 15px;
+}
+.profile-pic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+    .nav-link-2{
+        align-items: center;
+    }
+}

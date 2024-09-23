@@ -1,0 +1,8 @@
+.back-con{
+    height: 250px;
+    background-image: url('./../../../public/images/91bb839fe7f690c529a936d3f69532cf.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+}
